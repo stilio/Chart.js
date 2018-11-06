@@ -1,7 +1,7 @@
 /* global window: false */
 'use strict';
 
-var moment = require('moment');
+var moment = require('moment-mini');
 moment = typeof moment === 'function' ? moment : window.moment;
 
 var defaults = require('../core/core.defaults');
